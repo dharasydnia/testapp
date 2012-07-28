@@ -1,0 +1,20 @@
+development:
+  method: :tls
+  host: ldap01.pisd.edu
+  base: OU=PISD,DC=ad,DC=pisd,DC=edu
+  bind_dn: cn=ldap.dibcreative,ou=service accounts,dc=ad,dc=pisd,dc=edu
+  password: UwN6!xP4m
+
+test:
+  method: :tls
+  host: ldap01.pisd.edu
+  base: OU=PISD,DC=ad,DC=pisd,DC=edu
+  bind_dn: cn=ldap.dibcreative,ou=service accounts,dc=ad,dc=pisd,dc=edu
+  password: UwN6!xP4m
+
+production:
+  method: :tls
+  host: ldap01.pisd.edu
+  base: OU=PISD,DC=ad,DC=pisd,DC=edu
+  bind_dn: cn=ldap.dibcreative,ou=service accounts,dc=ad,dc=pisd,dc=edu
+  password: UwN6!xP4m

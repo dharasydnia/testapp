@@ -1,0 +1,10 @@
+---
+address: 0.0.0.0
+timeout: 30
+wait: 30
+port: 3010
+server: 2
+daemonize: true
+environment: production
+max_conns: 1024
+max_persistent_conns: 512
